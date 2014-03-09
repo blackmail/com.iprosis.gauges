@@ -1,0 +1,16 @@
+class com.iprosis.gauges.jGauge extends Component {
+	/* Same method, returns a sample value */
+	int sampleMethod(/* sample argument */ String foo) {*
+		return 1;
+	*}
+
+	/* Returns the current color of the box */
+	String getColor() {*
+		return this.color;
+	*}
+
+	/* Sets the current color of the box */
+	void setColor(/* the new color */ String newColor) {*
+		this.color = newColor;
+	*}
+}
